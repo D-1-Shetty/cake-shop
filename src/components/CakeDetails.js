@@ -1,4 +1,3 @@
-// src/components/CakeDetails.js
 import React, { useState } from "react";
 
 const CakeDetails = ({ cake, onAddToCart }) => {

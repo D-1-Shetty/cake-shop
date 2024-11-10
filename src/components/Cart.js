@@ -1,6 +1,5 @@
 import React from "react";
 
-// Helper function to format price in INR (₹)
 const formatPrice = (price) => {
   return `₹${price.toFixed(2)}`;
 };

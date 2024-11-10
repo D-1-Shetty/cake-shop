@@ -1,23 +1,18 @@
-/* src/App.css */
-
-/* Basic body and font styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Header styles */
 header {
-  background-color: #ff6347; /* Tomato color */
+  background-color: #ff6347;
   padding: 1rem;
   color: white;
   text-align: center;
 }
 
-/* Navigation buttons (Home, About Us, Contact Us) */
 nav {
-  background-color: #333; /* Dark background for the navigation bar */
+  background-color: #333;
   padding: 1rem;
   text-align: center;
 }
@@ -33,7 +28,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Cake card styles */
 .cake-card {
   border: 1px solid #ddd;
   padding: 1rem;
@@ -47,21 +41,19 @@ nav a:hover {
   height: auto;
 }
 
-/* Button styling for various actions (Add to Cart, Navigation) */
 button {
-  background-color: #ff6347; /* Tomato color */
+  background-color: #ff6347;
   color: white;
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
-  border-radius: 5px; /* Optional: rounded corners for the buttons */
+  border-radius: 5px;
 }
 
 button:hover {
-  background-color: #ff4500; /* Darker Tomato */
+  background-color: #ff4500;
 }
 
-/* Cart and List of Cakes */
 .cart {
   margin-top: 2rem;
 }
@@ -72,7 +64,6 @@ button:hover {
   justify-content: space-around;
 }
 
-/* Category buttons */
 .categories button {
   margin: 5px;
   padding: 0.5rem 1rem;
@@ -83,10 +74,9 @@ button:hover {
 }
 
 .categories button:hover {
-  background-color: #ff4500; /* Darker Tomato */
+  background-color: #ff4500;
 }
 
-/* Footer styles */
 footer {
   background-color: #333;
   color: white;
@@ -94,7 +84,6 @@ footer {
   padding: 1rem;
 }
 
-/* Custom styles for the navigation buttons (Home, About Us, Contact Us) */
 .nav-button {
   margin: 10px;
 }

@@ -1,4 +1,3 @@
-// src/components/CakeCategories.js
 import React from "react";
 
 const CakeCategories = ({ categories, onSelectCategory }) => {
