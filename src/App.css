@@ -1,38 +1,114 @@
-.App {
+/* src/App.css */
+
+/* Basic body and font styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #ff6347; /* Tomato color */
+  padding: 1rem;
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navigation buttons (Home, About Us, Contact Us) */
+nav {
+  background-color: #333; /* Dark background for the navigation bar */
+  padding: 1rem;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+nav a {
+  margin: 0 15px;
   color: white;
+  text-decoration: none;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+nav a:hover {
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Cake card styles */
+.cake-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  width: 250px;
+  text-align: center;
+}
+
+.cake-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Button styling for various actions (Add to Cart, Navigation) */
+button {
+  background-color: #ff6347; /* Tomato color */
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Optional: rounded corners for the buttons */
+}
+
+button:hover {
+  background-color: #ff4500; /* Darker Tomato */
+}
+
+/* Cart and List of Cakes */
+.cart {
+  margin-top: 2rem;
+}
+
+.cakes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Category buttons */
+.categories button {
+  margin: 5px;
+  padding: 0.5rem 1rem;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.categories button:hover {
+  background-color: #ff4500; /* Darker Tomato */
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Custom styles for the navigation buttons (Home, About Us, Contact Us) */
+.nav-button {
+  margin: 10px;
+}
+
+nav button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #ff4500;
 }
