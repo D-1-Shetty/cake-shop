@@ -7,7 +7,7 @@ const CakeCard = ({ cake, onAddToCart }) => {
       <h3>{cake.name}</h3>
       <p>{cake.description}</p>
       <p>
-        <strong>₹{cake.price.toFixed(2)}</strong> {/* Display price in INR */}
+        <strong>₹{cake.price.toFixed(2)}</strong>
       </p>
       <button onClick={() => onAddToCart(cake)}>Add to Cart</button>
     </div>
